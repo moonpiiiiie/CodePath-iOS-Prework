@@ -13,11 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
-    
+    @IBOutlet weak var partySize: UILabel!
+    @IBOutlet weak var splitAmount: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.title = "Tip Calculator"
     }
 
 
@@ -31,6 +34,15 @@ class ViewController: UIViewController {
         tipAmountLabel.text = String(format:"$%.2f", tip)
         
         totalLabel.text = String(format:"$%.2f", total)
+    }
+    
+    @IBAction func partySizeControl(_ sender: UIStepper) {
+        let numOfPeople = Int(sender.value)
+        partySize.text = String(numOfPeople)
+        let strTotal = totalLabel.text!
+        let index = strTotal.index(strTotal.startIndex, offsetBy: 1)
+        let total = strTotal[index...]
+        splitAmount.text = String(format:"$%.2f", (Double(total) ?? 0)/Double(numOfPeople))
     }
 }
 

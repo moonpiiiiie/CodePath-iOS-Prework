@@ -16,6 +16,7 @@
 		923A33B8287F702000C8E933 /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A33B7287F702000C8E933 /* PreworkTests.swift */; };
 		923A33C2287F702000C8E933 /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A33C1287F702000C8E933 /* PreworkUITests.swift */; };
 		923A33C4287F702000C8E933 /* PreworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A33C3287F702000C8E933 /* PreworkUITestsLaunchTests.swift */; };
+		926A18EE2881260D00CD6723 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A18ED2881260D00CD6723 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		923A33BD287F702000C8E933 /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		923A33C1287F702000C8E933 /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		923A33C3287F702000C8E933 /* PreworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		926A18ED2881260D00CD6723 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		923A339F287F701D00C8E933 /* Prework */ = {
 			isa = PBXGroup;
 			children = (
+				926A18ED2881260D00CD6723 /* SettingsViewController.swift */,
 				923A33A0287F701D00C8E933 /* AppDelegate.swift */,
 				923A33A2287F701D00C8E933 /* SceneDelegate.swift */,
 				923A33A4287F701D00C8E933 /* ViewController.swift */,
@@ -261,6 +264,7 @@
 				923A33A5287F701D00C8E933 /* ViewController.swift in Sources */,
 				923A33A1287F701D00C8E933 /* AppDelegate.swift in Sources */,
 				923A33A3287F701D00C8E933 /* SceneDelegate.swift in Sources */,
+				926A18EE2881260D00CD6723 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
